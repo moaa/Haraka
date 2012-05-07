@@ -18,7 +18,6 @@ exports.hook_connect = function (next, connection) {
 	var self = this;
 	var config = this.config.get('smtp_balance.json');
 	var snotes = connection.server.notes;
-	connection.notes.slb = {};
 	if(!snotes.cluster){
 		snotes.cluster = [];
 		var uniq = new Date;
