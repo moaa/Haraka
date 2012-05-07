@@ -1,0 +1,8 @@
+{
+
+	"hosts": [
+		{"host":"haraka1","port":"2525"},
+		{"host":"haraka2","port":"2526"},
+		{"host":"haraka3","port":"2527"}
+		]
+}
